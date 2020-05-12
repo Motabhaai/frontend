@@ -15,8 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
   
 <link rel="stylesheet" href="css/mytoggler.css">
-	
-	<link href="css/960_12_col.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/main.css">
 	<title>Pehla Property</title>
 	
@@ -82,32 +81,73 @@
               <i class="fas fa-search"></i>
           </div>
         </div>  
-        
-          <button id="modalBtn" class="mybutton">BHK
+
+        <div class="inputmodal">
+          <button id="modalBtn" class="mybutton">BHK <i class="fas fa-angle-down"></i>
           </button>
-        
+      
         <div id="simpleModal" class="modal">
         <div class="modal-content">
           <span class="mycloseBtn">&times;</span>
           <form>
-            <input type="checkbox" id="1RK" name="vehicle1" value="Bike">
-            <label for="vehicle1"> 1RK</label><br>
+            <input type="checkbox" id="1RK" name="vehicle1" value="rk">
+            <label for="rk"> 1RK</label><br>
             <input type="checkbox" id="1BHK" name="1BHK" value="BHK">
             <label for="1BHK"> 1BHK</label><br>
             <input type="checkbox" id="2BHK" name="2BHK" value="BHK">
             <label for="2BHK"> 2BHK</label><br>
             <input type="checkbox" id="3BHK" name="3BHK" value="3BHK">
-            <label for="3BHK+"> 3BHK+</label><br>
-        
+            <label for="3BHK+"> 3BHK</label><br>
         </form>
         </div>
-        </div>  
-
-        
+        </div> 
+        <button id="budgetmodalBtn" class="budgetbutton">Budget<i class="fas fa-angle-down"></i>
+        </button>
   
+        <div id="budgetsimpleModal" class="budgetmodal">
+          <div class="budgetmodal-content">
+            <h1>Budget</h1>
+            <span class="budgetcloseBtn">&times;</span>
+            <div class="myform">
+              <form>
+                <input class="" type="text"> -
+                 <input class="" type="text">
+            </form>
+            </div>
+            
+          </div>
+          </div> 
+
+        <button id="buymodalBtn" class="buybutton">Proprty Type <i class="fas fa-angle-down"></i>
+        </button>
+
+        <div id="buysimpleModal" class="buymodal">
+          <div class="buymodal-content">
+            <span class="buycloseBtn">&times;</span>
+            <form>
+              <input type="checkbox" id="Apartment" name="Apartment" value="">
+              <label for="Apartment">Apartment</label><br>
+              <input type="checkbox" id="Buildingfloor" name="buildingfloor" value="">
+              <label for="buildingfloor"> Building Floor</label><br>
+              <input type="checkbox" id="villa" name="villa" value="">
+              <label for="villa"> Villa</label><br>
+              <input type="checkbox" id="residentialflat" name="residentialflat" value="">
+              <label for="residentialflat"> Residential Flat</label><br>
+              <input type="checkbox" id="studioapartment" name="studioapartment" value="">
+              <label for="studioapartment"> Studio Apartment</label><br>
+              <input type="checkbox" id="independenthouse" name="independenthouse" value="">
+              <label for="independenthouse"> Independent House</label><br>
+          </form>
+          </div>
+          </div> 
+
+        </div>
         
       
-</div>
+          
+      </div>
+
+   
 
 
 

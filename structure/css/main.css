@@ -62,13 +62,19 @@ a{
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;   
 }
+.html{
+  height: 100%;
+}
+
+
 
 /* ===============================Welcome part ==================================*/
 .my-main{
     display: flex;
     justify-content: flex-end;
-    margin-top: 50px;
+    margin-top: 70px;
 
 }
 
@@ -119,6 +125,7 @@ a{
 /* Navigation  */
 .my-navbar{
     display: flex;
+    margin-top: 50px;
 }
 
 .my-navbar ul{
@@ -184,6 +191,7 @@ border: black 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
   }
     
 
@@ -239,12 +247,14 @@ border: black 1px solid;
 /* ================================================================================================================= */
 /*  */
 
+
   .mybutton{
-    background-color: black;
-    padding: 1em 2em;
-    color: white;
+    
+    
+    color: black;
     font-family: 'Josefin Slab', serif;
-    border: 0;
+    border: 0px;
+    margin-top: 30px;
   }
   .mybutton:hover{
     background: black;
@@ -253,19 +263,20 @@ border: black 1px solid;
   .modal{
     display: none;
     position: fixed;
-    height: 200px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     background-color: white;
-    z-index: 1;
+     z-index: 1; 
     overflow: auto;
-     left: 0;
-    right: 0; 
-    background-color: rgba(0,0,0,0.5);
+     background-color: rgba(0,0,0,0.5);
+     left: 0px;
+     right: 0px;
+  
   }
 
   .modal-content{
     background-color: white;
-    margin:5px auto;
+    margin: 20% auto;
     width: 50%;
     padding:20px; 
   box-shadow:0 5px 8px 0 rgba(0, 0, 0, .5), 0 7px 20px 0 rgba(0, 0, 0, 0.6);
@@ -287,5 +298,107 @@ animation-duration: 1s; }
   text-decoration: none;
   cursor: pointer;
 }
+
+.buybutton{
+
+  border: 0px;
+  color: orangered;
+  font-family: 'Josefin Slab', serif;
+  margin-top: 30px;
+}
+.buybutton:hover{
+  background: white;
+}
+
+.buycloseBtn{
+  color: wheat;
+  float: right;
+  font-size: 30px;
+}
+.buycloseBtn:hover,.mycloseBtn:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buymodal{
+  display: none;
+
+  background-color: white;
+  height: auto;
+  width: auto;
+   z-index: 1; 
+  background-color: rgba(0,0,0,0.5);
+   left: 0px;
+   right: 0px;
+
+}
+
+.buymodal-content{
+  background-color: white;
+  /* margin: 20% auto;
+  padding:20px;  */
+box-shadow:0 5px 8px 0 rgba(0, 0, 0, .5), 0 7px 20px 0 rgba(0, 0, 0, 0.6);
+animation-name: modalopen;
+animation-duration: 1s;
+ }
+
+  @keyframes modalopen{
+    from { opacity:0}
+    to {opacity: 1;}
+  }
+
+  
+.budgetbutton{
+  color: black;
+  font-family: 'Josefin Slab', serif;
+  border: 0;
+  margin-top: 30px;
+}
+.budgetbutton:hover{
+  background: black;
+}
+
+.budgetcloseBtn{
+  color: wheat;
+  float: right;
+  font-size: 30px;
+}
+.budgetcloseBtn:hover,.mycloseBtn:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.budgetmodal{
+  display: none;
+
+  color: black;
+   z-index: 1; 
+   width: auto;
+   height: auto;
+  background-color: rgba(0,0,0,0.5);
+   left: 0px;
+   right: 0px;
+}
+
+.budgetmodal-content{
+  background-color: white;
+  padding:20px 0px;
+box-shadow:0 5px 8px 0 rgba(0, 0, 0, .5), 0 7px 20px 0 rgba(0, 0, 0, 0.6);
+animation-name: modalopen;
+animation-duration: 1s;
+ }
+
+  @keyframes modalopen{
+    from { opacity:0}
+    to {opacity: 1;}
+  }
+
+  .inputmodal{
+    margin-left: 550px;
+  }
+
+
 
 

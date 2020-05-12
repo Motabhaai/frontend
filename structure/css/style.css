@@ -1,0 +1,185 @@
+
+.mylogo{
+
+    display: flex;
+    
+    font-family: 'Josefin Slab', serif;
+    align-items: center;
+    margin-right:29px;
+}
+
+.container_12{
+        /* width: 56.25%
+        padding-bottom 75%; */
+        max-width: 1200px;
+        margin: 0 auto;
+    
+
+        
+      }
+
+/* Table View ********************/
+
+@media (max-width: 768px) {
+    
+    
+    .mahhcol {
+        width: 45%;
+    }
+
+
+}
+
+
+
+
+
+/* Mobile View ********************/
+
+@media (max-width: 400px) {
+
+    .mahhcol {
+        width: 100%;
+    }
+    
+
+.mytitle h1{
+    font-size: 20px;
+}
+.mytitle p{
+    font-size: 12px; 
+}
+
+.mymenu-item{
+	text-align:center;
+	text-transform:uppercase;
+	background-color:white;
+	padding:10px 0;
+	color:black;
+    cursor:pointer;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    font-family: 'Josefin Slab', serif;
+}
+
+.myMenu-item{
+	text-align:center;
+	text-transform:uppercase;
+	background-color: black;
+	padding:10px 0;
+	color:white;
+    cursor:pointer;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    font-family: 'Josefin Slab', serif;
+}
+
+.mymenu-item:hover{
+	background-color:black;
+	color:rgb(131, 131, 127);
+}
+.myheadnav{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+.mymain{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.mymain h1{
+    font-size: 60px;
+    line-height: 1.25rem;
+}
+.mymain p{
+    line-height: 0.5 rem;
+    font-size: 20px;
+}
+
+myloginbutton{
+   
+    padding-top: 20px;
+    padding-left: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mysearchbar{
+    margin-top: 25px;
+    padding-left:70px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+prefix_3 {
+    margin-left: 80px;
+   
+}
+
+.mysearchbox{
+  
+    min-height:30px;
+    background-color: red;
+    display: inline;
+    
+}
+.mymodels{
+    margin-left: 400px;
+}
+
+.mysearcbutton{
+    margin-bottom:50px;
+    margin-right: 10px;
+}
+
+.myform {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* This bit draws the box around it */
+    border:1px solid grey;
+  
+    /* I've used padding so you can see the edges of the elements. */
+    /* padding:2px; */
+  }
+  
+  .myinput {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+    background-color: rgba(228, 224, 224, 0.877);
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  
+  .myinput:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+  
+  .myybutton {
+    /* Just a little styling to make it pretty */
+    border:1px solid grey;
+    background: grey;
+    background-color: rgb(190, 184, 184);
+  }
+
+  
+
+
+
+
+
+
+
+
